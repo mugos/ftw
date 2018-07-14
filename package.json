@@ -1,0 +1,11 @@
+{
+  "name": "@mugos/ftw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Function Training Wheels",
+  "license": "MIT",
+  "dependencies": {
+    "monet": "^0.8.10",
+    "ramda": "^0.25.0"
+  }
+}
