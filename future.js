@@ -1,3 +1,5 @@
+const { Right, Left } = require('monet')
+
 class Future {
   static resolve(x) {
     return new Future(Promise.resolve(Right(x)))
