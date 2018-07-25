@@ -39,6 +39,7 @@ module.exports = {
   isRight,
   isSome,
   mergeMap,
+  mapRej,
   mergeToState,
   ms,
   promiseToFuture,
