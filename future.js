@@ -1,4 +1,5 @@
 const { Right, Left } = require('monet')
+const { map } = require('ramda')
 
 class Future {
   static resolve(x) {

@@ -1,6 +1,6 @@
 {
   "name": "@mugos/ftw",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "main": "index.js",
   "description": "Function Training Wheels",
   "license": "MIT",
