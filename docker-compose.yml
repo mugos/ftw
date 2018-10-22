@@ -1,11 +1,9 @@
-version: '3.5'
+version: '3.7'
 services:
   test:
     image: node:alpine
-    command: yarn test
+    command: npm test
     working_dir: /usr/local/src
     volumes:
       - .:/usr/local/src
-      - node_modules:/usr/local/src/node_modules
-volumes:
-  node_modules: {  }
+      - /usr/local/src/node_modules
