@@ -6,4 +6,6 @@ services:
     working_dir: /usr/local/src
     volumes:
       - .:/usr/local/src
-      - /usr/local/src/node_modules
+      - node_modules:/usr/local/src/node_modules
+volumes:
+  node_modules: {}

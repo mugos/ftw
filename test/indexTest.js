@@ -13,7 +13,7 @@ test('not ok value', t => {
 })
 
 
-test('not ok value', t => {
+test('not ok value 2', t => {
   const resp = composeNow(() => "a", () => "b")
   t.is(resp, "a");
 })
